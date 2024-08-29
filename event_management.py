@@ -7,6 +7,7 @@ class Event:
 
     def add_participant(self):
         self.participant_count += 1
+        print("Participant added.")
 
     def get_participant_count(self):
         print(f"Total Participants: {self.participant_count}")
